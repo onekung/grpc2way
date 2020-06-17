@@ -14,7 +14,7 @@ real time communication
           
           
 - build
-  make build
+  - make build
 - run
   - make run_server
    - make run_client 

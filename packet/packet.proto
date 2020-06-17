@@ -1,0 +1,11 @@
+syntax="proto3";
+package packet;
+
+message PacketData {
+    int32 id = 1;
+    string msg = 2;
+}
+
+service SayHi {
+    rpc Say ( PacketData ) returns ( PacketData ) {};
+}

@@ -12,4 +12,12 @@ real time communication
         - client create server on yamux session
           - server create client on yamux session
           
+          
+build
+  make build
+run
+  make run_server
+  make run_client 
+  
+          
     

@@ -13,11 +13,11 @@ real time communication
           - server create client on yamux session
           
           
-build
+- build
   make build
-run
-  make run_server
-  make run_client 
+- run
+  - make run_server
+   - make run_client 
   
           
     
